@@ -1,0 +1,52 @@
+{
+	"projectName": {
+		"Color": [
+			"Black",
+			"White",
+			"Grey",
+			"Red",
+			"Yellow",
+			"Blue",
+			"Green",
+			"Purple",
+			"Orange",
+			"Brown",
+			"Pink"
+		],
+		"Military": [
+			"Alpha",
+			"Bravo",
+			"Charlie",
+			"Delta",
+			"Echo",
+			"Foxtrot",
+			"Golf",
+			"Hotel"
+		],
+		"Ranking": [
+			"First",
+			"Second",
+			"Third",
+			"Fourth",
+			"Fifth",
+			"Sixth",
+			"Seventh",
+			"Eighth",
+			"Nineth",
+			"Tenth"
+		],
+		"Animal": [
+			"Dog",
+			"Cat",
+			"Mouse",
+			"Horse",
+			"Eagle",
+			"Hawk",
+			"Buffalo",
+			"Ant",
+			"Deer",
+			"Wolf",
+			"Lion"
+		]
+	}
+}
