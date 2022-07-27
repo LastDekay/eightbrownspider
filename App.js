@@ -1,13 +1,51 @@
 import { StatusBar } from 'expo-status-bar';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Modal } from 'react-native-web';
 import ProjectName from './components/ProjectName';
+import ProjectIdea from './components/ProjectIdea';
+import { Button } from 'react-native-web';
+
+const displayTestRender = (comp) => {
+	switch (comp) {
+		case 'PN':
+			return <ProjectName />;
+
+		case 'PI':
+			return <ProjectIdea />;
+
+		default:
+			return <Text>Test Statement</Text>;
+	}
+};
 
 export default function App() {
+	const [viewComp, changeComp] = useState('PN');
+	console.log(viewComp);
 	return (
 		<View style={styles.container}>
 			<Text>Eight Brown Spider Work Assist App</Text>
-			<ProjectName />
+			<select
+				onChange={(comp) => {
+					changeComp(comp.target.value);
+				}}
+			>
+				<option comp={'PN'}>PN</option>
+				<option comp={'PI'}>PI</option>
+			</select>
+			{displayTestRender(viewComp)}
+
+			{/* <ProjectName />
+			<ProjectIdea /> */}
+
+			{/* <Button
+				title="Tesy"
+				color="#ee0e00"
+				onPress={() => {
+					console.log('test');
+					displayTestRender();
+				}}
+			/> */}
+
 			<StatusBar style="auto" />
 		</View>
 	);
