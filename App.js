@@ -33,19 +33,6 @@ export default function App() {
 				<option comp={'PI'}>PI</option>
 			</select>
 			{displayTestRender(viewComp)}
-
-			{/* <ProjectName />
-			<ProjectIdea /> */}
-
-			{/* <Button
-				title="Tesy"
-				color="#ee0e00"
-				onPress={() => {
-					console.log('test');
-					displayTestRender();
-				}}
-			/> */}
-
 			<StatusBar style="auto" />
 		</View>
 	);

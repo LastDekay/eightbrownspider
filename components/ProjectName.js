@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import projName from '../json/projectNaming.json';
+import objectNames from '../json/objectNames.json';
 import { useState } from 'react';
 
 const randomizeProjectName = () => {
@@ -12,18 +12,12 @@ const randomizeProjectName = () => {
 };
 
 const chooseCateWord = () => {
-	const projKeys = Object.keys(projName['projectName']);
+	const projKeys = Object.keys(objectNames);
 	const category =
-		projKeys[
-			Math.floor(
-				Math.random() * Object.keys(projName['projectName']).length
-			)
-		];
-	const cateKeys = Object.keys(projName['projectName'][category]);
+		projKeys[Math.floor(Math.random() * Object.keys(objectNames).length)];
+	const cateKeys = Object.keys(objectNames[category]);
 	const cateElem =
-		projName['projectName'][category][
-			Math.floor(Math.random() * cateKeys.length)
-		];
+		objectNames[category][Math.floor(Math.random() * cateKeys.length)];
 	return cateElem;
 };
 
@@ -35,6 +29,7 @@ const ProjectName = () => {
 			<Text>{displayProjectName ? displayProjectName : ''}</Text>
 			<Button
 				onPress={() => {
+					console.log(Object.keys(objectNames));
 					changeDisplayProjectName(randomizeProjectName());
 				}}
 				title="Print JSON test"

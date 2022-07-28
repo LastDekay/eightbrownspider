@@ -1,0 +1,19 @@
+{
+	"Animals": [
+		"Crab",
+		"Fish",
+		"Worm",
+		"Ant",
+		"Sheep",
+		"Cow",
+		"Crocodile",
+		"Frog",
+		"Duck",
+		"Chicken",
+		"Bat",
+		"Bear"
+	],
+	"Flora": ["Seaweed", "Fern", "Asparagus"],
+	"Material": [],
+	"Tech": []
+}
