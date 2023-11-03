@@ -37,7 +37,7 @@ const ProjectName = () => {
 				onPress={() => {
 					changeDisplayProjectName(randomizeProjectName());
 				}}
-				title="Print JSON test"
+				title="Generate Project Name"
 			/>
 		</View>
 	);
