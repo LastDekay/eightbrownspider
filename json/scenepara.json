@@ -1,0 +1,14 @@
+{
+    "scenepara": {
+        "sensation":["Optimistic","Opportunity","Sorrow","Celebration","Violent","Cruel","Dread","Intimate","Relfective","Calm","Confusion","Isolation","Speed","Discomfort"],
+        "relationships":["Romantic","Inner Circle","Family","Friends","Roomates","Ally","Work Acquaintance","Situtational","Friend of Friends","Strangers","Enemies","Assistance","Authority","Student"],
+        "relationshipStatus":[],
+        "conflict":["vs Self","vs Other","vs Abstraction","Survival"],
+        "element":["Stark Constrast","Magtech-centric","Symbolic","Use of Environment","Multiple Cultures or Langauges","Action packed"],
+        "characterAction":["Moving","Lifting","Carrying","Socializing","Practicing","Fighting","Creating","Mending","Cooking","Cleaning","Mediating","Consuming","Thinking","Debating","Hunting"],
+        "setting":["House","Office","Academic","Factory","Dock","Street","Alley","Cabin","Apartment","Lodge","Borderlands","Walls","Ruins"],
+        "biome":["Arid","Desert","Barrens","Artic","Tundra","Forest","Jungle","Swamp"],
+        "elevation":["Mountain","Hills","Mesa","Valley","River","Ocean"],
+        "change":["Sensation","Relationship","Conflict","Action","Setting","Motivation"]
+    }
+}
